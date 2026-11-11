@@ -1,0 +1,34 @@
+{
+  "name": "@magpie-community/opencode-cloudwise-auth",
+  "version": "0.1.0",
+  "description": "Cloudwise MaaS (api.cloudwise.ai) with your API key in OpenCode and magpie: OpenAI-compatible chat models, and the account's credit allowance as a percentage and in absolute amounts",
+  "type": "module",
+  "main": "./opencode.mjs",
+  "exports": { ".": "./opencode2.mjs" },
+  "files": [
+    "index.mjs",
+    "opencode.mjs",
+    "opencode2.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "magpie",
+    "cloudwise",
+    "maas"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/magpie-community/plugins",
+    "directory": "packages/cloudwise"
+  },
+  "scripts": {
+    "test": "bun test"
+  },
+  "magpie": {
+    "icon": "https://www.cloudwise.ai/favicon.ico"
+  }
+}
